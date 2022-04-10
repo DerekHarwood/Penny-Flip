@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penny Flip Game</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Penny Flip Game</h1>
+
+      <img src="./assets/images/penny-heads.jpg" alt="penny image" />
+
+      <div id="btn-div">
+        <button id="flip">Flip The Penny!</button>
+        <button id="clear">Clear Scoreboard</button>
+      </div>
+
+      <h3 id="message-header">Let's Get Rolling!</h3>
+
+      <hr />
+
+      <table>
+        <thead>
+          <tr>
+            <th>Number of Heads</th>
+            <th>Percentage Heads</th>
+            <th>Number of Tails</th>
+            <th>Percentage Tails</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="heads-counter">0</th>
+            <th class="heads-percentage">0%</th>
+            <th class="tails-counter">0</th>
+            <th class="tails-percentage">0%</th>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>

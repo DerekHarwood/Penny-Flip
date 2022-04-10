@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(to bottom left, orange, white)
+}
+main {
+    background-color: white;
+    margin: 20px;
+    padding: 25px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid orange;
+}
+
+#btn-div {
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+}
+
+#flip {
+    background: linear-gradient(to bottom left, blue, white);
+    color: black;
+    height: 40px;
+    font-size: large;
+    font-weight: bold;
+    font-style: oblique;
+    border-radius: 10px;
+    width: 170px;
+}
+
+#clear {
+    background: linear-gradient(to bottom left, orange, white);
+    color: black;
+    height: 40px;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 10px;
+    width: 170px;
+}
+
+#message-header {
+    color: orange;
+    font-weight: bold;
+}
+
+#clear:hover, #flip:hover {
+    background: white;
+    color: red;
+}
